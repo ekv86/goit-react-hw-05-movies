@@ -1,0 +1,23 @@
+form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.search__input {
+  width: 300px;
+  height: 25px;
+  font-size: 16px;
+  border: 1px solid lightgrey;
+}
+
+.search__btn {
+  height: 29px;
+  border: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.films__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}

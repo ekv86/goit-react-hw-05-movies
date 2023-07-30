@@ -1,0 +1,58 @@
+main {
+  padding: 10px 0;
+}
+
+p{
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 280px;
+  height: 370px;
+}
+.back__btn {
+  display: block;
+  width: 70px;
+  height: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.film__description {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.film__description_text {
+  margin-left: 20px;
+}
+
+.film__description_overview {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.film__description_genres {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.film__additional {
+  padding-top: 16px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.film__additional_item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
