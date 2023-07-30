@@ -13,7 +13,6 @@ const Cast = () => {
     getFilmCast(id)
       .then(data => {
         setCastInfo(data.cast);
-        console.log(data)
       })
       .catch((error) => {
       console.log(error);

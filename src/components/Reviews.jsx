@@ -11,7 +11,6 @@ const Reviews = () => {
     getFilmReviews(id)
       .then(data => {
         setFilmReviews(data.results);
-        console.log(data);
       })
       .catch(error => {
         console.log(error);

@@ -5,8 +5,7 @@ import css from '../components/MovieSearch.module.css';
 
 const MovieSearch = () => {
   const [searchMovie, setSearchMovie] = useState([]);
-    const location = useLocation();
-    console.log(location)
+  const location = useLocation();
   const [searchParams, setSearchParams] = useSearchParams();
   const searchQuery = searchParams.get('query') ?? '';
 

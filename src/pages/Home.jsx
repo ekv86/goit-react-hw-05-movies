@@ -12,7 +12,6 @@ const Home = () => {
         setFilmsResult(data.results);
       })
       .catch(error => {
-        console.log(error);
         setFilmsResult(error.message);
       });
   }, []);

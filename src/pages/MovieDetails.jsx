@@ -8,7 +8,6 @@ const MovieDetails = () => {
   const { id } = useParams();
   const location = useLocation();
   const additionalLocation = location.state;
-  console.log(location)
   const backBtn = location.state?.from ?? '/';
   const [film, setFilm] = useState({} ?? '');
   const { title, poster_path, overview, genres, vote_average } = film;
